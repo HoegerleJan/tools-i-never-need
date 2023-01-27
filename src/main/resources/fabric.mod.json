@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "toolsineverneed",
+  "version": "${version}",
+
+  "name": "Tools I never need",
+  "description": "Bruder keine Ahnung",
+  "authors": [
+    "Doulrion"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/doulrion_jan",
+    "sources": "https://github.com/HoegerleJan/toolsineverneed"
+  },
+
+  "license": "MIT",
+  "icon": "assets/toolsineverneed/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.doulrion.toolsineverneed.ToolsINeverNeed"
+    ]
+  },
+  "mixins": [
+    "toolsineverneed.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric-api": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
