@@ -34,6 +34,7 @@ public class ToolsINeverNeedAmethystPickaxeItem extends PickaxeItem {
         int luck = rand.nextInt(100);
 
         int fortuneLevel = EnchantmentHelper.getLevel(Enchantments.FORTUNE, stack);
+
         luck = luck + (fortuneLevel * 10);
 
         if(luck >= 89){

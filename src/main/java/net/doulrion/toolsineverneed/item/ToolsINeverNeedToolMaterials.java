@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 public enum ToolsINeverNeedToolMaterials implements ToolMaterial {
 
 
-    AMETHYST(3, 1000, 7.0f, 2.5f, 22, () -> {
+    AMETHYST(4, 1000, 7.0f, 2.5f, 22, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ToolsINeverNeedItems.AMETHYST_INGOT});
     });
 

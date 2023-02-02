@@ -3,6 +3,8 @@ package net.doulrion.toolsineverneed.item.custom;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -45,7 +47,7 @@ public class ToolsINeverNeedAmethystAxeItem extends AxeItem {
 
         int luck = rand.nextInt(100);
 
-        int fortuneLevel = Objects.requireNonNull(stack.getSubNbt("Enchantments")).getInt("minecraft:fortune");
+        int fortuneLevel = EnchantmentHelper.getLevel(Enchantments.FORTUNE, stack);
 
         luck = luck + (fortuneLevel * 10);
 
