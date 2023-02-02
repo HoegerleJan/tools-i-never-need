@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.doulrion.toolsineverneed.ToolsINeverNeed"
+    ],
+    "client": [
+      "net.doulrion.toolsineverneed.ToolsINeverNeedClient"
     ]
   },
   "mixins": [
