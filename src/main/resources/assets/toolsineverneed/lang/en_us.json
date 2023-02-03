@@ -1,9 +1,11 @@
 {
   "item.toolsineverneed.amethyst_ingot": "Amethyst Ingot",
+  "item.toolsineverneed.amethyst_ingot.tooltip": "A magic Ingot",
+  "item.toolsineverneed.amethyst_ingot.tooltip.shift": "§aIt glows! ^^",
 
   "item.toolsineverneed.amethyst_sword": "Amethyst Sword",
   "item.toolsineverneed.amethyst_sword.tooltip": "A powerful magic Weapon",
-  "item.toolsineverneed.amethyst_sword.tooltip.shift": "You got the Zoomies",
+  "item.toolsineverneed.amethyst_sword.tooltip.shift": "§aYou got the Zoomies ^^",
 
   "item.toolsineverneed.amethyst_axe": "Amethyst Axe",
   "item.toolsineverneed.amethyst_axe.tooltip": "A Tool with some magic Powers...",

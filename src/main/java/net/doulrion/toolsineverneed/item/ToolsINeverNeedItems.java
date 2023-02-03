@@ -2,6 +2,7 @@ package net.doulrion.toolsineverneed.item;
 
 import net.doulrion.toolsineverneed.ToolsINeverNeed;
 import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystAxeItem;
+import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystIngotItem;
 import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystPickaxeItem;
 import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystSwordItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -12,7 +13,7 @@ import net.minecraft.util.registry.Registry;
 public class ToolsINeverNeedItems {
 
     public static final Item AMETHYST_INGOT = registerItem("amethyst_ingot",
-            new Item(new FabricItemSettings().group(ToolsINeverNeedGroup.TOOLSINEVERNEED)));
+            new ToolsINeverNeedAmethystIngotItem(new FabricItemSettings().group(ToolsINeverNeedGroup.TOOLSINEVERNEED)));
 
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword",
             new ToolsINeverNeedAmethystSwordItem(ToolsINeverNeedToolMaterials.AMETHYST,3,-2.4f, new FabricItemSettings().group(ToolsINeverNeedGroup.TOOLSINEVERNEED)));
