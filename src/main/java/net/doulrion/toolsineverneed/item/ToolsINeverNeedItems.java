@@ -1,10 +1,7 @@
 package net.doulrion.toolsineverneed.item;
 
 import net.doulrion.toolsineverneed.ToolsINeverNeed;
-import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystAxeItem;
-import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystIngotItem;
-import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystPickaxeItem;
-import net.doulrion.toolsineverneed.item.custom.ToolsINeverNeedAmethystSwordItem;
+import net.doulrion.toolsineverneed.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -23,6 +20,9 @@ public class ToolsINeverNeedItems {
 
     public static final Item AMETHYST_PICKAXE = registerItem("amethyst_pickaxe",
             new ToolsINeverNeedAmethystPickaxeItem(ToolsINeverNeedToolMaterials.AMETHYST,1,-2.8f, new FabricItemSettings().group(ToolsINeverNeedGroup.TOOLSINEVERNEED)));
+
+    public static final Item DOG_TREAT = registerItem("dog_treat",
+            new ToolsINeverNeedDogTreatItem(new FabricItemSettings().group(ToolsINeverNeedGroup.TOOLSINEVERNEED).food(ToolsINeverNeedFoodComponents.DOG_TREAT)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ToolsINeverNeed.MOD_ID, name), item);

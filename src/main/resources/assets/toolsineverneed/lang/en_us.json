@@ -19,6 +19,10 @@
   "item.toolsineverneed.amethyst_pickaxe.tooltip.shift": "There is a chance to gain haste,",
   "item.toolsineverneed.amethyst_pickaxe.tooltip.shift_2": "while breaking blocks",
 
+  "item.toolsineverneed.dog_treat": "Dog Treat",
+  "item.toolsineverneed.dog_treat.tooltip": "A snack for your dog!",
+  "item.toolsineverneed.dog_treat.tooltip.shift": "§3Yoshiko would like this ^^",
+
   "item.toolsineverneed.tooltip.empty_line": "",
 
   "itemGroup.toolsineverneed.tinn": "Tools I never Need"
