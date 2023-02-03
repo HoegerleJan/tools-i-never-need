@@ -2,8 +2,23 @@
   "item.toolsineverneed.amethyst_ingot": "Amethyst Ingot",
 
   "item.toolsineverneed.amethyst_sword": "Amethyst Sword",
+  "item.toolsineverneed.amethyst_sword.tooltip": "A powerful magic Weapon",
+  "item.toolsineverneed.amethyst_sword.tooltip.shift": "You got the Zoomies",
+
   "item.toolsineverneed.amethyst_axe": "Amethyst Axe",
+  "item.toolsineverneed.amethyst_axe.tooltip": "A Tool with some magic Powers...",
+  "item.toolsineverneed.amethyst_axe.tooltip_2": "If You are lucky",
+  "item.toolsineverneed.amethyst_axe.tooltip.shift": "There is a chance to gain haste,",
+  "item.toolsineverneed.amethyst_axe.tooltip.shift_2": "while breaking blocks",
+
   "item.toolsineverneed.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.toolsineverneed.amethyst_pickaxe.tooltip": "A Tool with some magic Powers...",
+  "item.toolsineverneed.amethyst_pickaxe.tooltip_2": "If You are lucky",
+  "item.toolsineverneed.amethyst_pickaxe.tooltip.shift": "There is a chance to gain haste,",
+  "item.toolsineverneed.amethyst_pickaxe.tooltip.shift_2": "while breaking blocks",
+
+  "item.toolsineverneed.tooltip.empty_line": "",
 
   "itemGroup.toolsineverneed.tinn": "Tools I never Need"
+
 }
