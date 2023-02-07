@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#Y"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:egg"
+    },
+    "Y": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "toolsineverneed:dog_treat"
+  }
+}

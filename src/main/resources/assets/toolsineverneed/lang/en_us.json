@@ -23,6 +23,10 @@
   "item.toolsineverneed.dog_treat.tooltip": "A snack for your dog!",
   "item.toolsineverneed.dog_treat.tooltip.shift": "§3Yoshiko would like this ^^",
 
+  "item.toolsineverneed.flower_crown": "Flower Crown",
+  "item.toolsineverneed.flower_crown.tooltip": "Let's you move like a deer!",
+  "item.toolsineverneed.flower_crown.tooltip.shift": "§aKinda like Lobelia",
+
   "item.toolsineverneed.tooltip.empty_line": "",
 
   "itemGroup.toolsineverneed.tinn": "Tools I never Need"

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "X X",
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:small_flowers"
+    },
+    "V": {
+      "item": "toolsineverneed:amethyst_ingot"
+    }
+  },
+  "result": {
+    "item": "toolsineverneed:flower_crown"
+  }
+}
